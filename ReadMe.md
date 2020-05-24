@@ -27,8 +27,8 @@ are five possible formats, each with a unique file size:
 - MODE 4 = 24576 data + 16 CLUT = 24592 bytes.
 - RAW = 512x192 palette indices = 98304 bytes.
 
-CLUT indices are in the range 0 to 15, except MODE 3 which uses 0 to 3. Palette
-indices are in the full range of 0 to 127.
+CLUT indices are in the range 0 to 15, palette indices are in the full range of
+0 to 127. MODE 3 uses only 4 CLUT entries as it's a 2-bit format.
 
 ## Raster Effects
 
