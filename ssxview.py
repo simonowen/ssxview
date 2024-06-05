@@ -72,6 +72,7 @@ def main(args):
 
     img.putpalette([c for i in clut for c in palette[i]])
     img = img.resize((512,384), Image.NEAREST)
+    img = img.convert('RGB')
     img.show()
 
 if __name__ == "__main__":
